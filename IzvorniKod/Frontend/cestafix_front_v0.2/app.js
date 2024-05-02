@@ -11,7 +11,7 @@ const app = express();
 app.use(
     "/api",
     createProxyMiddleware({
-        target: "https://cestafix-be-fbrc.onrender.com/",
+        target: "https://cestafix-be-95ke.onrender.com/",
         changeOrigin: true,
     })
 );
